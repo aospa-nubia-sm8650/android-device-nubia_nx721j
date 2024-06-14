@@ -16,7 +16,6 @@ DEVICE_PATH := device/nubia/nx721j
 AB_OTA_UPDATER := true
 
 AB_OTA_PARTITIONS += \
-    dtbo \
     init_boot \
     odm \
     product \
@@ -84,7 +83,7 @@ BOARD_KERNEL_CMDLINE := \
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
 TARGET_HAS_GENERIC_KERNEL_HEADERS := true
-KERNEL_PREBUILT_DIR := device/qcom/pineapple-kernel
+KERNEL_PREBUILT_DIR := device/nubia/nx721j-kernel
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true

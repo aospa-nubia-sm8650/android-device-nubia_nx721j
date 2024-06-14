@@ -21,4 +21,12 @@
             <instance>vendor_zte/0</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.zte.hardware.laser</name>
+        <version>1.0</version>
+        <interface>
+            <name>ILaser</name> 
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>

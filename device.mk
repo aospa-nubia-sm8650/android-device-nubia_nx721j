@@ -204,7 +204,8 @@ PRODUCT_PACKAGES += \
     init.nubia.Light.rc \
     init.nubia.sensors.rc \
     init.nubia.touch.lcd.rc \
-    ueventd.nubia.rc
+    ueventd.nubia.rc \
+    init.logcat.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
