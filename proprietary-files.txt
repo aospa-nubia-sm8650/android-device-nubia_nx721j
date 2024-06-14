@@ -2833,4 +2833,3 @@ vendor/lib64/vendor.zte.hardware.laser@1.0.so
 vendor/lib64/vendor.zte.modem@1.0.so
 vendor/lib64/vendor.zte.subsys@1.0.so
 vendor/lib64/vendor.zte.subsys@2.0.so
-
